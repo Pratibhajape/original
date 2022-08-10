@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Sign in</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <div class="container ">
+        <div class="row">
+            <div class="col">
+        
+                <div class="col" style="margin-top:auto ;margin-bottom:auto" >
+                    <form method="POST" action="/submit-form" class="form-group" onsubmit='account()'>
+                        <p class="h1">Create new account</p>
+                         <label class="form-label">Enter Username:</label>
+                        <input  required class="form-control" id="Username" type="text" name="username" placeholder="Enter Username:"/><br>
+
+                        <label class="form-label">Enter your password:</label>
+                        <input  required class="form-control" id="password" type="password" name="password" placeholder="Enter your password:"/><br>
+
+                         <label class="form-label">Enter your email:</label>
+                        <input  required class="form-control" id="email" type="text" name="email" placeholder="Enter your email:"/><br>
+
+                        <label class="form-label">Enter your address</label>
+                        <input  required class="form-control" id="address" type="text" name="address" placeholder="Enter your address:"/><br>
+                        
+                        <label class="form-label">Enter your mobile no:</label>
+                        <input  required class="form-control" id="mobile_no" type="number" name="mobile_no" placeholder="Enter your mobile number:"/><br>
+
+                        <button class="btn btn-primary" type="submit" >Signin</button>
+</body>
+</html>
